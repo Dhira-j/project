@@ -78,7 +78,7 @@
     
 }
 
-.h1{
+.mainsectiontext{
     margin-top: 10%;
     text-align: center;
     padding: 10px;
@@ -215,8 +215,16 @@
     
 } 
 
-.frame{
-    margin-top: 30%;
+#frame {
+    margin-top: 2%;
+    background-image: url('../images/frame.png');  /* Try changing the path */
+    background-size: contain;  /* Changed from cover to contain */
+    background-position: center;  /* Added to center the image */
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 500px;
+    position: relative;
+    display: block;  /* Added to ensure element is visible */
 }
 
 .text1{
